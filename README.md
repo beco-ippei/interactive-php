@@ -6,9 +6,17 @@ CLI for php.
 
 Test for debugger.php
 
+- src/debugger.php
+
+! 適宜、sudoをつける
+
 Ubuntu installation:
-> use 'PHPUnit'
-* sudo apt-get install php-pear
+
+* apt-get install php-pear
 * pear channel-discover pear.phpunit.de
-* sudo pear install phpunit/PHPUnit
+* pear channel-discover pear.symfony.com
+* pear install -a pear.phpunit.de/PHPUnit
+
+* phpunit [enter]
+  で、コマンドのヘルプが出たらOK
 
